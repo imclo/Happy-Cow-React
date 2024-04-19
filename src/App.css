@@ -1,0 +1,223 @@
+/* COMMON */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  background-color: white;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 40px;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 24px;
+  color: #1a1a1a;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 16px;
+  line-height: 22px;
+  color: #1a1a1a;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+/* HEADER */
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.header-logo {
+  height: 50px;
+  cursor: pointer;
+}
+
+.header-button-log-sign .signup,
+.header-button-log-sign .login {
+  margin-left: 20px;
+  background-color: #9069cd;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 100px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* HERO */
+
+.picture-background {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  background-image: url(https://vietnam.travel/sites/default/files/2019-01/best%20vegetarian%20dishes%20in%20vietnam.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+
+.hero-container {
+  margin: auto;
+  width: 1280px;
+  /* background-color: aquamarine; */
+}
+
+.home-hero-search-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.home-hero-search-container > input {
+  width: 830px;
+  border-radius: 5px 0 0 5px;
+  border: none;
+  padding-left: 10px;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+}
+
+.search-icon-container {
+  height: 45px;
+  width: 45px;
+  background-color: #9069cd;
+  border-radius: 0 5px 5px 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 2;
+}
+
+/* HOME */
+
+.restaurants-wrapper {
+  display: flex;
+  margin: 50px auto;
+  width: 1280px;
+}
+
+.restaurants-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 0 6px 16px;
+}
+
+.restaurant-cover {
+  border-radius: 20px;
+  height: 300px;
+  border: solid 1px lightgrey;
+}
+
+.rating-stars {
+  padding-top: 2px;
+}
+
+/* LOGIN */
+
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.signup-form {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: white 1px solid;
+  margin: auto;
+  width: 500px;
+}
+
+.signup-form > input {
+  border: none;
+  border-bottom: 1px solid #9069cd;
+  height: 35px;
+  margin-bottom: 25px;
+  width: 250px;
+}
+
+.email,
+.password,
+.username {
+  font-family: "Poppins", sans-serif;
+  border: none;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.submit-connect {
+  font-family: "Poppins", sans-serif;
+  background-color: #9069cd;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 40px;
+  height: 45px;
+  margin-top: 20px;
+  outline: none;
+  width: 250px;
+}
+
+.link {
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #9069cd;
+}
+
+/* RESTAURANT */
+
+.restaurant-body {
+  height: calc(100vh - 60px);
+}
+
+.restaurant-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 30px;
+  width: 1280px;
+}
+
+.restaurant-photo {
+  width: 200px;
+  height: 200px;
+}
+
+.column1 {
+  flex: 1;
+  padding-right: 30px;
+}
