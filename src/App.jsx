@@ -3,8 +3,14 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faStar, faSearch } from "@fortawesome/free-solid-svg-icons";
-library.add(faStar, faSearch);
+import {
+  faStar,
+  faSearch,
+  faLocationDot,
+  faPhone,
+  faLink,
+} from "@fortawesome/free-solid-svg-icons";
+library.add(faStar, faSearch, faLocationDot, faPhone, faLink);
 
 // import components
 import Header from "../components/Header";

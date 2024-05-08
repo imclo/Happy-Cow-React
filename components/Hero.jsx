@@ -5,7 +5,7 @@ const Hero = () => {
     <>
       <div className="picture-background">
         <div className="hero-container">
-          <h2>Find Vegan Restaurants Nearby</h2>
+          <h1>Find Vegan Restaurants Nearby</h1>
           <div className="home-hero-search-container">
             <input
               type="text"
